@@ -7,6 +7,14 @@
     <title>Light / Dark Mode Toggle</title>
 
     <style>
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
         .dark-mode {
             background-color: #1a1a1a;
             color: #fff;
@@ -26,9 +34,10 @@
     </style>
 </head>
 <body>
-    <h1>Light / Dark Mode Toggle</h1>
-    <button onclick="toggleMode()">Switch Mode</button>
-
+    <div class="container">
+        <h1>Light / Dark Mode Toggle</h1>
+        <button onclick="toggleMode()">Switch Mode</button>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
